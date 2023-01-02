@@ -11646,18 +11646,27 @@ body {
     width: 30%;
   }
 }
-.projects-section a {
+.projects-section .wrap-anchor {
   height: 3rem;
   width: 3rem;
   text-decoration: none;
   line-height: 3rem;
-  color: rgba(0, 0, 0, 0.7);
 }
-.projects-section a:hover {
-  color: #000;
+.projects-section .wrap-anchor:hover {
+  color: #64a19d;
 }
-.projects-section a:active {
-  color: #000;
+.projects-section .wrap-anchor-white {
+  height: 3rem;
+  width: 3rem;
+  text-decoration: none;
+  line-height: 3rem;
+  color: #fff;
+}
+.projects-section .wrap-anchor-white:hover {
+  color: #64a19d;
+}
+.projects-section .wrap-anchor-white:active {
+  color: #fff;
 }
 
 .signup-section {
